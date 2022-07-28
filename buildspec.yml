@@ -9,7 +9,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - sudo npm install 
+      - npm install 
       #-f --unsafe-perm=true --allow-root
   post_build:
     commands:

@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ubuntu/nodejs
-pm2 start -f app.js
+cd /var/www/nodejs
+sudo pm2 start app.js
